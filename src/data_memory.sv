@@ -10,7 +10,8 @@ module data_memory
 
     reg [15:0] mem[(1 << 15):0];
 
-    always @(posedge clk) begin
+    always @(negedge clk) begin
+        data_out <= 0;
         if (ctl_write_enable)
             mem[addr] <= data_in;
         else
