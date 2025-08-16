@@ -8,7 +8,7 @@ module data_memory
     output reg  [15:0] data_out
 );
 
-    reg [15:0] mem[(1 << 15):0];
+    (* ramstyle = "block" *) reg [15:0] mem[512:0];
 
     always @(negedge clk) begin
         data_out <= 0;
