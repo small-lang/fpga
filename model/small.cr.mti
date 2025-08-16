@@ -1,0 +1,15 @@
+D:/ConsoleEnv/small-lang/fpga/src/prog_counter.v {1 {vlog -work work -stats=none D:/ConsoleEnv/small-lang/fpga/src/prog_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prog_counter
+
+Top level modules:
+	prog_counter
+
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/prog_memory.v {1 {vlog -work work -stats=none D:/ConsoleEnv/small-lang/fpga/src/prog_memory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module prog_memory
+
+Top level modules:
+	prog_memory
+
+} {} {}}
