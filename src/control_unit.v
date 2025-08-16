@@ -49,7 +49,7 @@ module control_unit
 
 
     inst_decoder id(
-        .enable (execute_mode),
+        .enable (execute_flag),
         .inst,
 
         .ctl_hlt,
