@@ -36,7 +36,8 @@ module cpu
         .ctl_nad,
         .ctl_shr,
         .ctl_shl,
-        .ctl_arg 
+        .ctl_arg,
+        .ctl_read
     );
 
     register acc(
