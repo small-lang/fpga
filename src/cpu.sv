@@ -33,10 +33,10 @@ module cpu
         .result   (result),
         .is_zero  (is_zero),
         
-        .ctl_nad (ctl_nad),
-        .ctl_shr (ctl_shr),
-        .ctl_shl (ctl_shl),
-        .ctl_read (ctl_read)
+        .ctl_nad,
+        .ctl_shr,
+        .ctl_shl,
+        .ctl_arg 
     );
 
     register acc(

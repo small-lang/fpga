@@ -10,16 +10,16 @@ module alu
     input wire ctl_nad,
     input wire ctl_shr,
     input wire ctl_shl,
-    input wire ctl_read
+    input wire ctl_arg
 );
 
     assign is_zero = (acc_data == 0);
 
     //select
     assign result =
-        (ctl_nad  ? ~(acc_data & mem_data) : 0) |
-        (ctl_shr  ?  (acc_data >> 1)       : 0) |
-        (ctl_shl  ?  (acc_data << 1)       : 0) |
-        (ctl_read ?  (acc_data)            : 0);
+        (ctl_nad ? ~(acc_data & mem_data) : 0) |
+        (ctl_shr ?  (acc_data >> 1)       : 0) |
+        (ctl_shl ?  (acc_data << 1)       : 0) |
+        (ctl_arg ?  (arg_data)            : 0);
 
 endmodule
