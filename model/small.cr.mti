@@ -1,15 +1,64 @@
-D:/ConsoleEnv/small-lang/fpga/src/prog_counter.v {1 {vlog -work work -stats=none D:/ConsoleEnv/small-lang/fpga/src/prog_counter.v
+D:/ConsoleEnv/small-lang/fpga/src/alu.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/reg.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/reg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/halt_switch.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/halt_switch.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module halt_switch
+
+Top level modules:
+	halt_switch
+
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/top.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/prog_counter.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/prog_counter.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module prog_counter
 
 Top level modules:
 	prog_counter
 
-} {} {}} D:/ConsoleEnv/small-lang/fpga/src/prog_memory.v {1 {vlog -work work -stats=none D:/ConsoleEnv/small-lang/fpga/src/prog_memory.v
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/jump_controller.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/jump_controller.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module prog_memory
+-- Compiling module jump_controller
 
 Top level modules:
-	prog_memory
+	jump_controller
+
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/inst_decoder.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/inst_decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module inst_decoder
+
+Top level modules:
+	inst_decoder
+
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/cpu.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/cpu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} D:/ConsoleEnv/small-lang/fpga/src/control_unit.sv {1 {vlog -work work -sv -stats=none D:/ConsoleEnv/small-lang/fpga/src/control_unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
 
 } {} {}}

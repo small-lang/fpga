@@ -9,72 +9,301 @@ z2
 !i10f 100
 cModel Technology
 dD:/ProjekteVerilog/1BitComputerNaoto64/model
-vprog_counter
-Z0 !s110 1755333329
+valu
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1755349105
 !i10b 1
-!s100 O5If`aEIg5FbdgOC36Y952
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I76KPBS7UHO<LAZGUo]E7e0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dD:/ConsoleEnv/small-lang/fpga/model
-w1755332198
-8D:/ConsoleEnv/small-lang/fpga/src/prog_counter.v
-FD:/ConsoleEnv/small-lang/fpga/src/prog_counter.v
-!i122 11
-L0 3 20
-Z4 OV;L;2020.1;71
+!s100 lPP0ENcgDD`71PFe>JU792
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I40l1G9C36M_?eJaOmaeOE2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dD:/ConsoleEnv/small-lang/fpga/model
+w1755348567
+8D:/ConsoleEnv/small-lang/fpga/src/alu.sv
+FD:/ConsoleEnv/small-lang/fpga/src/alu.sv
+!i122 180
+L0 1 27
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1755333329.000000
-!s107 D:/ConsoleEnv/small-lang/fpga/src/prog_counter.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/prog_counter.v|
+Z6 !s108 1755349105.000000
+!s107 D:/ConsoleEnv/small-lang/fpga/src/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/alu.sv|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
-vprog_memory
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vcontrol_unit
 R0
-!i10b 1
-!s100 2`2nak0GDcbz?PMI4^67Q3
 R1
-I6<E0Wm?0mHmX<h@:^5]980
+!i10b 1
+!s100 P<@djOE7l8LoJOYenLoU`0
 R2
+I3zb0jklWILLLZkjNQZ6Q42
 R3
-w1755332145
-8D:/ConsoleEnv/small-lang/fpga/src/prog_memory.v
-FD:/ConsoleEnv/small-lang/fpga/src/prog_memory.v
-!i122 10
-L0 3 11
+S1
 R4
+w1755345186
+8D:/ConsoleEnv/small-lang/fpga/src/control_unit.sv
+FD:/ConsoleEnv/small-lang/fpga/src/control_unit.sv
+!i122 181
+L0 1 76
+R5
 r1
 !s85 0
 31
-R5
-!s107 D:/ConsoleEnv/small-lang/fpga/src/prog_memory.v|
-!s90 -reportprogress|300|-work|work|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/prog_memory.v|
-!i113 1
 R6
+!s107 D:/ConsoleEnv/small-lang/fpga/src/control_unit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/control_unit.sv|
+!i113 1
 R7
-vtop
+R8
+vcpu
 R0
-!i10b 1
-!s100 >J7>=<OO7ZF@^TAn<QXoh0
 R1
-IE:CD@OR]<=;DfV1L^8JGK3
+!i10b 1
+!s100 2K;A>_BoK7:d44kJOL`Yc3
 R2
+IS1kAeGCLagHDRPaV`ChE90
 R3
-w1755333210
+S1
+R4
+w1755348550
+8D:/ConsoleEnv/small-lang/fpga/src/cpu.sv
+FD:/ConsoleEnv/small-lang/fpga/src/cpu.sv
+!i122 182
+L0 1 59
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/ConsoleEnv/small-lang/fpga/src/cpu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/cpu.sv|
+!i113 1
+R7
+R8
+vcute
+!s110 1755343778
+!i10b 1
+!s100 4KzS4m<6:aRLJ8O9VHzf63
+R2
+IEi@j;B@_ziYbm=g:F6ZN50
+R3
+R4
+w1755342818
 8D:/ConsoleEnv/small-lang/fpga/src/top.v
 FD:/ConsoleEnv/small-lang/fpga/src/top.v
-!i122 12
-L0 2 28
-R4
+!i122 15
+Z9 L0 2 69
+R5
 r1
 !s85 0
 31
-R5
+!s108 1755343778.000000
 !s107 D:/ConsoleEnv/small-lang/fpga/src/top.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/top.v|
 !i113 1
+o-work work
+R8
+vdata_memory
+R0
+R1
+!i10b 1
+!s100 lgf9PKf4Q84bQUVnIUbd91
+R2
+I_d7GomKK1K1WaJd8=:oO<1
+R3
+S1
+R4
+w1755349062
+8D:/ConsoleEnv/small-lang/fpga/src/data_memory.sv
+FD:/ConsoleEnv/small-lang/fpga/src/data_memory.sv
+!i122 183
+Z10 L0 1 22
+R5
+r1
+!s85 0
+31
 R6
+!s107 D:/ConsoleEnv/small-lang/fpga/src/data_memory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/data_memory.sv|
+!i113 1
 R7
+R8
+vhalt_switch
+R0
+R1
+!i10b 1
+!s100 FlH5K]Y`_P?^C11kReb8b3
+R2
+IFjKBZBGa0Cm:C0Q[Ezk@41
+R3
+S1
+R4
+w1755331085
+8D:/ConsoleEnv/small-lang/fpga/src/halt_switch.sv
+FD:/ConsoleEnv/small-lang/fpga/src/halt_switch.sv
+!i122 184
+R10
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/ConsoleEnv/small-lang/fpga/src/halt_switch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/halt_switch.sv|
+!i113 1
+R7
+R8
+vinst_decoder
+R0
+R1
+!i10b 1
+!s100 i_S=^X7`Ch2mMl=_WB8N`0
+R2
+IGiTlaf1cMe]KN?kM?KUEM0
+R3
+S1
+R4
+w1755344012
+8D:/ConsoleEnv/small-lang/fpga/src/inst_decoder.sv
+FD:/ConsoleEnv/small-lang/fpga/src/inst_decoder.sv
+!i122 185
+L0 1 65
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/ConsoleEnv/small-lang/fpga/src/inst_decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/inst_decoder.sv|
+!i113 1
+R7
+R8
+vjump_controller
+R0
+R1
+!i10b 1
+!s100 0Q0g9FiXiHe@P=[LN9`N00
+R2
+IC08dRAIKD3`gJTiiM<oJ`0
+R3
+S1
+R4
+w1755339453
+8D:/ConsoleEnv/small-lang/fpga/src/jump_controller.sv
+FD:/ConsoleEnv/small-lang/fpga/src/jump_controller.sv
+!i122 186
+L0 1 15
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/ConsoleEnv/small-lang/fpga/src/jump_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/jump_controller.sv|
+!i113 1
+R7
+R8
+vprog_counter
+R0
+Z11 !s110 1755349106
+!i10b 1
+!s100 bPTEV7e>Y07<6B]mNWHKG1
+R2
+IzcglNZAdKVS0]Sec1cX=l1
+R3
+S1
+R4
+w1755334060
+8D:/ConsoleEnv/small-lang/fpga/src/prog_counter.sv
+FD:/ConsoleEnv/small-lang/fpga/src/prog_counter.sv
+!i122 187
+L0 3 22
+R5
+r1
+!s85 0
+31
+Z12 !s108 1755349106.000000
+!s107 D:/ConsoleEnv/small-lang/fpga/src/prog_counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/prog_counter.sv|
+!i113 1
+R7
+R8
+vprog_memory
+R0
+R11
+!i10b 1
+!s100 >o5[RfH2U@^GLcD@[H5j60
+R2
+I?FJDaa<HVN0f@]XW=3DkC0
+R3
+S1
+R4
+w1755342467
+8D:/ConsoleEnv/small-lang/fpga/src/prog_memory.sv
+FD:/ConsoleEnv/small-lang/fpga/src/prog_memory.sv
+!i122 188
+L0 3 11
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ConsoleEnv/small-lang/fpga/src/prog_memory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/prog_memory.sv|
+!i113 1
+R7
+R8
+vregister
+R0
+R11
+!i10b 1
+!s100 [@QD^>?dZDE]4C0;85o@b2
+R2
+Imz:R[lHei6fTi:mT80i?F2
+R3
+S1
+R4
+w1755332016
+8D:/ConsoleEnv/small-lang/fpga/src/reg.sv
+FD:/ConsoleEnv/small-lang/fpga/src/reg.sv
+!i122 189
+L0 1 17
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ConsoleEnv/small-lang/fpga/src/reg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/reg.sv|
+!i113 1
+R7
+R8
+vtop
+R0
+R11
+!i10b 1
+!s100 mY`_b9U3i=WRTfERmmE6A1
+R2
+I_95zg2?fLLSUj`CP:8:ll1
+R3
+S1
+R4
+w1755346345
+8D:/ConsoleEnv/small-lang/fpga/src/top.sv
+FD:/ConsoleEnv/small-lang/fpga/src/top.sv
+!i122 190
+R9
+R5
+r1
+!s85 0
+31
+R12
+!s107 D:/ConsoleEnv/small-lang/fpga/src/top.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|D:/ConsoleEnv/small-lang/fpga/src/top.sv|
+!i113 1
+R7
+R8
